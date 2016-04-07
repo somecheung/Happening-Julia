@@ -1,1 +1,146 @@
-Hello World!
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<meta http-equiv="refresh" content="500; url=index.html">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.9/p5.js"></script>
+	<script src="sketch.js"></script>
+
+
+<style type="text/css">
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#hide{
+	position: relative;
+	float: right;
+	width: 20%;
+	margin-right:15%;
+}
+
+a{
+	position: absolute;
+	float: right;
+	margin-right: 5%;
+	margin-top: 50%;
+	text-decoration: none;
+}
+
+pre.code{
+	position: relative;
+	float: right;
+	margin-left: 5%;
+	display: block;
+	clear: both;
+	margin-top: 10px;
+	white-space: pre;
+}
+
+.code{
+	font-family: "Courier New",Courier, monospace;
+	font-size: 0.7em;
+	line-height: normal;
+	color: #000000;
+}
+
+</style>
+</head>
+
+<body>
+
+<pre class="code">
+Happening with Julia 
+July 3, 2016
+12:16AM - 12:46AM
+
+meet @ Spring and Bowery to @ Essex and Rivington
+Manhattan, NYC
+
+Distance : 0.5 miles - 2640 feet - 132 x 20ft (23040px) = 3041280 
+count 3,041,280 pixel changes to determine the sketch duration
+
+1.
+We decided on food and I start by saying:
+&ldquo;I feel bloated&rdquo; &mdash;Joanna 
+
+	(while &ldquo;i feel bloated&rdquo;){
+		bloat += bloat;
+		diameter of balloon = bloat; 
+	}	
+
+2.
+I ask if Julia wants to hear something about our family.
+We debate about our brother.
+&ldquo;do you want to know what Joey told me about mom?&rdquo;
+
+boolean HearStory;
+
+	if (HearStory == true){		
+		if (He_Is == true)
+			guess another 2 alternative
+			//something happens to balloons? ⇐ are they confused?
+		if (He_Is == false)
+			//nothing happens
+		}
+	if (HearStory == false){
+		nothing happens();
+	}
+
+If Julia had chosen to not hear the story, we would not debate about our brother.
+
+3.
+Julia is slightly embarrassed by the balloons.
+balloons are hitting Julia&rsquo;s head
+balloons behave weird and erratic
+
+	gravity= random(-x, x);
+	ypos = ypos + yspeed;
+	yspeed = yspeed + gravity;
+
+4.
+Julia is exhausted.
+balloons fall to the ground and deflate
+
+	ypos = ypos - yspeed;
+	balloon_deflates();
+
+</pre>
+
+ <a href="#" onclick="toggle_visibility('hide');" align="left">More Info</a>
+<div id="hide" align="left" style="display:none;">
+	<img src="Images/Julia/IMG_3442.jpg">
+	<p>
+	Background Information
+	<br>
+	Relationship : Sister
+	<br>
+	Distance covered : 0.5 miles / 3,041,280 px (around 300dpi)
+	<br>
+	Start Time : 00:16
+	<br>
+	End Time : 00:46
+	<br>
+	Start @ Spring & Bowery
+	<br>
+	End @ Essex & Rivington
+	</p>
+</div>
+
+</body>
+
+<script type="text/javascript">
+	function toggle_visibility(id){
+
+		var e = document.getElementById(id);
+		if(e.style.display == 'block'){
+			e.style.display = 'none';
+		} else{
+			e.style.display = 'block';
+		}
+	}
+</script>
+
+</html>
